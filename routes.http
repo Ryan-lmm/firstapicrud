@@ -1,0 +1,11 @@
+GET http://localhost:3030/task/getTask
+###
+
+POST http://localhost:3030/task/createTask
+
+Content-Type: application/json
+
+{
+    "name":"terminar api",
+    "deadline": "20-03-2025"
+}
